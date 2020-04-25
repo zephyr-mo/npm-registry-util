@@ -1,0 +1,27 @@
+{
+  "name": "npm-registry-util",
+  "version": "0.0.3",
+  "description": "切换npm源",
+  "main": "index.js",
+  "author": "zephyr-mo",
+  "license": "MIT",
+  "keywords": ["registry", "npm", "util"],
+  "bin": {
+    "nr": "bin/index.js"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.3",
+    "shelljs": "^0.8.3"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.3",
+    "shelljs": "^0.8.3"
+  }
+}
